@@ -4,19 +4,15 @@ A modern, feature-rich Next.js starter template with a comprehensive set of pre-
 
 ## Features
 
-- **[Next.js 15.2.0](https://nextjs.org/)** - The React framework for production with App Router
+- **[Next.js](https://nextjs.org/)** - The React framework for production with App Router
 - **[React 19](https://react.dev/)** - The latest version of React
 - **[TypeScript](https://www.typescriptlang.org/)** - Type safety for your JavaScript
-- **[Tailwind CSS 4](https://tailwindcss.com/)** - Utility-first CSS framework
+- **[TailwindCSS 4](https://tailwindcss.com/)** - Utility-first CSS framework
 - **[Shadcn UI](https://ui.shadcn.com/)** - Re-usable UI components built with Radix UI and Tailwind CSS
 - **[Better Auth](https://github.com/better-auth/better-auth)** - Authentication library for Next.js
-- **[Prisma 6](https://www.prisma.io/)** - Next-generation ORM for Node.js and TypeScript
+- **[Prisma](https://www.prisma.io/)** - Next-generation ORM for Node.js and TypeScript
+- **[Hono](https://hono.dev/)** - The open-source, production-ready HTTP server framework for Node.js being used as an API server.
 - **[Zod](https://zod.dev/)** - TypeScript-first schema validation
-- **[React Hook Form](https://react-hook-form.com/)** - Performant, flexible form validation
-- **[Sonner](https://sonner.emilkowal.ski/)** - Toast notifications for React
-- **[Lucide React](https://lucide.dev/)** - Beautiful & consistent icon set
-- **[ESLint 9](https://eslint.org/)** - Pluggable JavaScript linter
-- **[Next Themes](https://github.com/pacocoursey/next-themes)** - Dark mode support
 
 ## Project Structure
 
@@ -73,6 +69,8 @@ Create a `.env` file in the root directory and add your environment variables:
 
 ```
 DATABASE_URL="your-database-url"
+BETTER_AUTH_SECRET="your-better-auth-secret"
+BETTER_AUTH_URL="your-better-auth-url"
 ```
 
 4. Set up the database with Prisma:
